@@ -62,16 +62,16 @@ export default defineConfig({
       'link',
       {
         rel: 'alternate icon',
-        href: '/favicon.ico',
+        href: '/favicon.png',
         type: 'image/png',
         sizes: '16x16',
       },
     ],
     ['meta', { name: 'author', content: authorNickName }],
-    ['link', { rel: 'mask-icon', href: '/favicon.ico', color: '#ffffff' }],
+    ['link', { rel: 'mask-icon', href: '/favicon.png', color: '#ffffff' }],
     [
       'link',
-      { rel: 'apple-touch-icon', href: '/favicon.ico', sizes: '180x180' },
+      { rel: 'apple-touch-icon', href: '/favicon.png', sizes: '180x180' },
     ],
   ],
   vite: {
