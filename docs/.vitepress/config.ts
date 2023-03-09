@@ -57,12 +57,12 @@ export default defineConfig({
   description,
   head: [
     ['meta', { name: 'theme-color', content: '#ffffff' }],
-    ['link', { rel: 'icon', href: '/public/favicon.ico', type: 'image/png' }],
+    ['link', { rel: 'icon', href: '/favicon.ico', type: 'image/x-icon' }],
     [
       'link',
       {
         rel: 'alternate icon',
-        href: '/public/favicon.ico',
+        href: '/favicon.ico',
         type: 'image/png',
         sizes: '16x16',
       },
@@ -106,9 +106,7 @@ export default defineConfig({
         link: '/about_me',
       },
     ],
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/Jack-0105' }
-    ]
+    socialLinks: [{ icon: 'github', link: 'https://github.com/Jack-0105' }],
   },
   base: '/',
 });
