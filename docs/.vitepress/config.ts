@@ -41,7 +41,7 @@ const blogTheme = getThemeConfig({
       { type: 'text', content: '👇 公众号 👇 --- 👇 微信 👇' },
       {
         type: 'image',
-        src: 'https://img.cdn.sugarat.top/mdImg/MTYxNTAxODc2NTIxMA==615018765210',
+        src: 'https://img.cdn.sugarat.top/mdImg/MTY3ODk0NDQyMzk2NQ==WX20230316-132636@2x.png',
       },
       {
         type: 'text',
@@ -85,8 +85,8 @@ export default defineConfig({
     ...blogTheme,
     lastUpdatedText: '上次更新于',
     footer: {
-      message: '自定义底部内容',
-      copyright: `MIT Licensed | <a target="_blank" href="https://theme.sugarat.top/"> @${authorNickName} </a>`,
+      message: '粤ICP备2021099714号-1',
+      copyright: `MIT Licensed | <a target="_blank" href="https://theme.sugarat.top/"> @ 2023 ${authorNickName} </a>`,
     },
     logo: '/logo.png',
 
